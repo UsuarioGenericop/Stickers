@@ -11,7 +11,8 @@ verification.addEventListener("click", function () {
   if (total > 10) {
     document.querySelector(".message").innerHTML = "Llevas demasiados stickers";
   } else if (total <= 10) {
-    document.querySelector(".message").innerHTML =
-      "Llevas " + total + " stickers <br> Valido";
+    document.querySelector(
+      ".message"
+    ).innerHTML = `Llevas ${total}  stickers <br> Valido`;
   }
 });
